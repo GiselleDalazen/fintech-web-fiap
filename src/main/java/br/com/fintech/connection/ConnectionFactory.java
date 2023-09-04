@@ -11,7 +11,7 @@ public class ConnectionFactory {
         Connection connection = null;
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            connection = DriverManager.getConnection(ORACLE, "RM97465", "051082");
+            connection = DriverManager.getConnection(ORACLE, "RMXXXXXX", "XXXXXXXX");
         } catch (SQLException e) {
            System.out.println("ERRO CONECTAR: "+ e.getMessage());
         } catch (ClassNotFoundException e) {
